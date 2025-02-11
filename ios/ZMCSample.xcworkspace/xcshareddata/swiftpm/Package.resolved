@@ -1,13 +1,13 @@
 {
-  "originHash" : "c3064567021f062b177412fc41b2021b7f2ef1b482ab5068a7accdd96b4cfeed",
+  "originHash" : "491e27aa95e3c34e47a53fe31eccd4ccc8f056e7875642082dab95424745ee54",
   "pins" : [
     {
-      "identity" : "zmckit",
+      "identity" : "zmcamerakit-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/idealinktr/ZMCKit",
+      "location" : "https://github.com/ziylanmedya/ZMCameraKit-IOS",
       "state" : {
         "branch" : "main",
-        "revision" : "1b6c6a130a944af6583fb49d83fd10e689783377"
+        "revision" : "849f58e12437ae90777bce89dec4985c65583cdb"
       }
     }
   ],
