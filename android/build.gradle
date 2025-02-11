@@ -1,0 +1,38 @@
+buildscript {
+    ext {
+        buildToolsVersion = "35.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 35
+        targetSdkVersion = 34
+        ndkVersion = "26.1.10909125"
+        kotlinVersion = "1.9.24"
+    }
+
+    allprojects {
+        repositories {
+            google()
+            mavenCentral()
+
+            // Add your custom Maven repository here
+            maven {
+                url "https://raw.githubusercontent.com/ziylanmedya/ZMCameraKit-Android/main/"
+            }
+        }
+    }
+
+
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://raw.githubusercontent.com/ziylanmedya/ZMCameraKit-Android/main/"
+        }
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
